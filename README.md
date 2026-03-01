@@ -73,9 +73,3 @@ python eval_diffusion.py --config ffhq.yml --resume <PATH_TO_DIFFUSION_CKPT> --t
 
 ---
 
-
----
-
-## License
-
-TBD
