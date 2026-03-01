@@ -20,7 +20,7 @@
 
 ---
 
-## Quick Start（最短で動かす）
+## Quick Start
 
 ### 0) Install
 
@@ -61,9 +61,9 @@ python eval_diffusion.py --config ffhq.yml --resume <PATH_TO_DIFFUSION_CKPT> --t
 | Motion blur length estimation | MSE ↓ | **0.008** |
 | Motion blur angle estimation | MSE ↓ | **0.004** |
 
-### Restoration（PSNR / SSIM）
+### Restoration
 
-以下は **w/o degradation info** と **提案手法（ours, conditional）** の比較例です。
+以下は **w/o degradation info** と **提案手法（ours, conditional）** の定性的・定量的比較例です。
 
 <!-- Noise / Global (4 images in 1 row) -->
 <p align="center">
