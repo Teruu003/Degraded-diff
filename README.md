@@ -65,6 +65,28 @@ python eval_diffusion.py --config ffhq.yml --resume <PATH_TO_DIFFUSION_CKPT> --t
 
 以下は **w/o degradation info** と **提案手法（ours, conditional）** の比較例です。
 
+<!-- Noise / Global (4 images in 1 row) -->
+<p align="center">
+  <img src="assets/results/noise/global_conditional.png" width="24%" />
+  <img src="assets/results/noise/global_wo_degradation.png" width="24%" />
+  <img src="assets/results/noise/global_ours.png" width="24%" />
+  <img src="assets/results/noise/global_gt.png" width="24%" />
+</p>
+<p align="center">
+  <b>Conditional</b> &nbsp;&nbsp; <b>w/o Degradation Info</b> &nbsp;&nbsp; <b>Ours</b> &nbsp;&nbsp; <b>GT</b>
+</p>
+
+<!-- Noise / Zoom (4 images in 1 row) -->
+<p align="center">
+  <img src="assets/results/noise/zoom_conditional.png" width="24%" />
+  <img src="assets/results/noise/zoom_wo_degradation.png" width="24%" />
+  <img src="assets/results/noise/zoom_ours.png" width="24%" />
+  <img src="assets/results/noise/zoom_gt.png" width="24%" />
+</p>
+<p align="center">
+  <b>Conditional (Zoom)</b> &nbsp;&nbsp; <b>w/o (Zoom)</b> &nbsp;&nbsp; <b>Ours (Zoom)</b> &nbsp;&nbsp; <b>GT (Zoom)</b>
+</p>
+
 | Degradation | PSNR (w/o) | SSIM (w/o) | PSNR (ours) | SSIM (ours) |
 |---|---:|---:|---:|---:|
 | Noise | 34.42 | 0.878 | **36.13** | **0.903** |
